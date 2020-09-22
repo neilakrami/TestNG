@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.syntax.class01.HrmsTestCases">
+      <class name="com.syntax.class03.GrouptsExample">
         <methods>
-          <include name="oepnBrowser"/>
-          <include name="invalidLogin"/>
+          <include name="validLogin"/>
           <include name="closeBrowser"/>
-          <include name="validation"/>
-          <include name="titleValidation"/>
+          <include name="openBrowser"/>
         </methods>
-      </class> <!-- com.syntax.class01.HrmsTestCases -->
+      </class> <!-- com.syntax.class03.GrouptsExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
